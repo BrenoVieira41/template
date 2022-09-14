@@ -6,8 +6,8 @@ services:
     image: postgres:14.2-alpine
     restart: always
     environment:
-      POSTGRES_PASSWORD: test
+      POSTGRES_PASSWORD: 1234
       POSTGRES_USER: test
-      POSTGRES_DB: template
+      POSTGRES_DB: account
     ports:
       - "5432:5432"
